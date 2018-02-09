@@ -8,7 +8,7 @@ import PasswordPage from './password';
 import HomePage from './home';
 import AccountPage from './account';
 
-import * as routes from '../constants/routes'
+import * as routes from '../../constants/routes'
 
 const App = () => {
   return (
@@ -39,7 +39,7 @@ const App = () => {
         <Route
           exact path = {routes.ACCOUNT}
           component = {() => <AccountPage />}
-        />        
+        />
       </div>
     </Router>
   )
